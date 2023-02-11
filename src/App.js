@@ -69,7 +69,7 @@ function App() {
     e.preventDefault();
     if (firstValue !== null) {
       if (secondValue !== null) {
-        let divid = +firstValue + +secondValue;
+        let divid = +firstValue / +secondValue;
         setCurrentResult(divid);
         setError(false);
         setSuccess(true);  
